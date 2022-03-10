@@ -1,0 +1,37 @@
+.App {
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.add {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.field {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.nt {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.container:hover {
+    background: whitesmoke;
+}
